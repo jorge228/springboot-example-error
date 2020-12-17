@@ -9,8 +9,9 @@ public class AppController {
 	@SuppressWarnings("unused")
 	@GetMapping("/index")
 	public String index() {
-		Integer valor = 100/0;
-		// Integer valor = Integer.parseInt("10xaaa");
+//		error aritmética
+//		Integer valor = 100/0;
+		Integer valor = Integer.parseInt("10xaaa");
 		return "index";
 	}
 }
